@@ -1,13 +1,14 @@
-
+/* AJUSTE DEL HEADER*/
 #cssmenu {
-  width: auto;
   padding: 0;
   line-height: 1;
-  display: block;
-  position: relative;
+  display:inline;
+  position: absolute;
+  width: 1000px;
+  top: 10px;
   z-index: 9999;
-  margin-top: 15px;
 }
+/* AJUSTE DEL HEADER*/
 
 ul li {
   margin: 0 20px 0 0;
