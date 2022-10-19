@@ -1,0 +1,146 @@
+/* AJUSTE BODY INDEX.HTML*/
+.zerogrid {
+	width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* AJUSTE BODY INDEX.HTML*/
+
+/* AJUSTE SECCION 3 INDEX.HTML*/
+.box-text {
+	padding: 60px;
+	width: 48%;
+}
+/* AJUSTE SECCION 3 INDEX.HTML*/
+
+/* AJUSTE CONTENEDOR ARCHIVE.HTML*/
+.wrap-post{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.flex-box {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 400px;
+}
+
+.box-text_1 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-image {
+	object-fit: cover;   
+	width:100%;
+    height:100%;
+}
+
+.heading {
+	margin-top: 70px;
+}
+
+.heading_1, .content_1 {
+	text-align: right;
+}
+/* AJUSTE CONTENEDOR ARCHIVE.HTML*/
+
+/* AJUSTE SECCION 2 INDEX.HTML*/
+.box-2 .row {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(3, 300px);
+}
+
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6{
+	width: 100%;
+}
+
+.box_1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.box_2 {
+	grid-column-start: 5;
+	grid-column-end: -1;
+}
+
+.box_3 {
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+
+.box_4 {
+	grid-column-start: 7;
+	grid-column-end: -1;
+}
+
+.box_5 {
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+.box_6 {
+	grid-column-start: 6;
+	grid-column-end: -1;
+}
+/* AJUSTE SECCION 2 INDEX.HTML*/
+
+/* AJUSTE FOOTER*/
+.wrap-footer .row {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+}
+
+footer .wrap-footer {
+	padding: 60px;
+	background: rgba(0, 0, 0, .8);
+}
+
+.col-footer-3 address {
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
+.col-footer-3 p {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	grid-row-start: 2;
+}
+/* AJUSTE FOOTER*/
+
+/* AJUSTE FORMULARIO CONTACT.HTML*/
+#contact_form,
+#comment {
+	padding: 0px 30px 0;
+	color: #222;
+}
+
+.contact-form {
+	margin-top: 0px;
+}
+
+.contact-form h3 {
+	padding-top: 40px;
+	font-size: 43px;
+	font-weight: 400;
+	color: #222;
+}
+
+.contact_form_1 .row {
+	display: flex;
+	padding: 0px 40px;
+}
+
+.wrap-col {
+	padding: 0px 10px 7px;
+}
+
+.row_1 {
+	padding: 0px 40px;
+}
+/* AJUSTE FORMULARIO CONTACT.HTML*/
